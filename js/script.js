@@ -59,5 +59,10 @@ for (var i = 0; i < listaDeTeclas.length; i++) {
   tecla.onclick= function(){
     tocaSom(idAudio);
   }
+
+    tecla.onkeydown = function() {
+         tecla.classList.add('Ativa')   
+    }
+    
 }
 
